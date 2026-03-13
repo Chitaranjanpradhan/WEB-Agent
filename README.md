@@ -92,4 +92,4 @@ MIT License
 
 [Your Name]
 - X: Devchitaranjan
-- GitHub: chitaranjan
+- GitHub: Chitaranjanpradhan
