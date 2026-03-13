@@ -77,9 +77,8 @@ http://localhost:8000/tinyfish-final.html
 - $499/month enterprise (unlimited runs)
 - Target: 50,000+ B2B companies
 
-## 📹 Video Demo
-
-https://x.com/devchitaranjan/status/2032392134914114001?s=46
+## 📹 Video 
+https://x.com/devchitaranjan/status/2032398339849990319?s=46
 
 ## 🏆 Hackathon Submission
 
@@ -92,5 +91,5 @@ MIT License
 ## 👤 Author
 
 [Your Name]
-- X: [@yourhandle]
-- GitHub: [@yourusername]
+- X: Devchitaranjan
+- GitHub: chitaranjan
