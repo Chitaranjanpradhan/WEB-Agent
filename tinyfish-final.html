@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>TinyFish Agent OS</title>
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <div id="root"></div>
+  
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  
+  <script>
+    const { useState, useEffect, useRef, useCallback } = React;
+  </script>
+  
+  <script type="text/babel" data-presets="react">
+    fetch('tinyfish-agent-os.jsx')
+      .then(r => r.text())
+      .then(code => {
+        const fixed = code
+          .replace('import { useState, useEffect, useRef, useCallback } from "react";', '')
+          .replace('export default ', '');
+        
+        eval(Babel.transform(fixed + '\n\nconst root = ReactDOM.createRoot(document.getElementById("root")); root.render(React.createElement(App));', { presets: ['react'] }).code);
+      });
+  </script>
+</body>
+</html>
