@@ -79,7 +79,7 @@ http://localhost:8000/tinyfish-final.html
 
 ## 📹 Video Demo
 
-[Add your X/Twitter post link here]
+https://x.com/devchitaranjan/status/2032392134914114001?s=46
 
 ## 🏆 Hackathon Submission
 
