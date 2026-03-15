@@ -8,7 +8,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 //            JSON Viewer · Email Alerts · Multi-URL · Custom Missions
 // ═══════════════════════════════════════════════════════════════════
 
-const API_KEY = "sk-tinyfish-TPzaed34OG3RRCCPFPBlpmzw4qkQEtzX";
+const API_KEY = "sk-tinyfish-LJFi_npagr9hJ7zH_JIoCiTnO1cmDDWQ";
 const TINYFISH_SSE = "https://agent.tinyfish.ai/v1/automation/run-sse";
 
 // ─── Agent Mission Templates ────────────────────────────────────────
